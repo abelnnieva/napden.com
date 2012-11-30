@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Abel Nieva Saavedra -- Front-end web developer -- @abnieva
+    Esteban Elias Nieva -- Front-end web developer -- @stnieva
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr, Bootstrap

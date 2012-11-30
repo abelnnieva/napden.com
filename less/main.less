@@ -1,0 +1,306 @@
+/*!
+ * main.less
+ *
+ * Copyright    (c) 2012 Napden
+ * Licensed     https://github.com/napden/napden.com/blob/master/LICENSE.md
+ *
+ * Designed and built with all the love by @abnieva and @stnieva.
+ */
+
+
+// Bootstrap
+
+@import "bootstrap.less";
+
+// Bootstrap Responsive
+
+@import "responsive.less";
+
+
+//
+// Custom styles
+// --------------------------------------------------
+
+// Typography
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+@logoFontFamily:        "Righteous", Helvetica, Arial, sans-serif;
+
+// Base
+
+.page-header {
+    border-bottom: none;
+    margin: 1.25em 0 1.85em;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.telephone {
+    background-image: url('../img/icon-telephone.png');
+    background-size: 20px 40px;
+    display: inline-block;
+    height: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
+    width: 20px;
+
+    &:hover {
+        background-position: 0 20px;
+    }
+}
+
+::-moz-selection {
+    background: @orange;
+    text-shadow: none;
+}
+
+::selection {
+    background: @orange;
+    color: @white;
+    text-shadow: none;
+}
+
+// Header
+
+.navbar {
+    .brand {
+        margin: 15px 0px;
+        padding: 0;
+
+        &:hover {
+            color: @linkColorHover;
+        }
+    }
+
+    .call {
+        padding-top: .95em;
+
+        a {
+            margin-left: .65em;
+        }
+    }
+}
+
+.main-header {
+    margin-bottom: 7em;
+    text-align: center;
+
+    h1 {
+        font-family: @logoFontFamily;
+        font-size: 5.25em;
+        margin-bottom: .5em;
+    }
+
+    p {
+        font-size: 1.25em;
+        font-weight: normal;
+        line-height: 1.75em;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .hero-unit {
+        margin-bottom: 0;
+    }
+}
+
+// Team
+
+.team {
+    margin-bottom: 5em;
+
+    article {
+        font-size: 1.2em;
+        line-height: 1.85em;
+        text-align: center;
+
+        footer {
+            font-size: 1.25em;
+            padding-top: .5em;
+
+            li {
+                margin-bottom: .5em;
+            }
+        }
+    }
+
+    .job-title {
+        color: @grayLight;
+        font-size: 1em;
+        font-weight: normal;
+        margin-top: 0;
+    }
+
+    .name {
+        font-size: 1.3em;
+        margin-bottom: 0;
+    }
+}
+
+// Contact
+
+.contact {
+    background-color: @orange;
+    color: @white;
+    padding: 2em 0 5em;
+
+    a {
+        color: @white;
+
+        &:hover {
+            color: @grayDark;
+        }
+    }
+
+    p {
+        font-size: 1.15em;
+        line-height: 1.55em;
+    }
+
+    .modal {
+        h3 {
+            color: @grayDark;
+        }
+
+        .modal-body {
+            text-align: center;
+
+            div:first-child {
+                margin: 0 auto;
+            }
+
+            input {
+                box-sizing: border-box;
+                margin-top: 2em;
+                padding: .85em .65em;
+                width: 300px;
+            }
+
+            .alert {
+                margin: 1em auto 0;
+                max-width: 300px;
+            }
+        }
+
+        .modal-footer {
+            a {
+                color: @linkColor;
+
+                &:hover {
+                    color: @linkColorHover;
+                }
+            }
+        }
+    }
+
+    .page-header {
+        small {
+            color: @white;
+        }
+    }
+}
+
+// Footer
+
+.main-footer {
+    padding: 1em 0 1em;
+
+    h1 {
+        font-size: 1em;
+        line-height: 1.25em;
+    }
+}
+
+
+//
+// Media Queries for Responsive Design
+// --------------------------------------------------
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+    .team {
+        article {
+            margin-bottom: 2.5em;
+        }
+    }
+
+    .contact {
+        margin: 0 -20px;
+        padding: 1em 0 2em;
+
+        .container {
+            padding: 0 20px;
+        }
+    }
+
+    .main-footer {
+        .copyright {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+    .page-header {
+        margin: .75em 0 1em;
+
+        h1 {
+            font-size: 2em;
+
+            small {
+                font-size: .5em;
+            }
+        }
+    }
+
+    .main-header {
+        margin-bottom: 3em;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        .hero-unit {
+            padding: 1em 0;
+        }
+    }
+
+    .team {
+        margin-bottom: 1em;
+
+        article {
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        footer {
+            font-size: 1.15em;
+        }
+
+        .bio {
+            font-size: 1em;
+        }
+
+        .job-title {
+            font-size: .9em;
+        }
+
+        .name {
+            line-height: 1em;
+        }
+    }
+
+}

@@ -8,10 +8,9 @@ The Napden website is a simple static site built with Bootstrap.
 
 ## Development setup
 
-1. Add your public and private keys reCAPTCHA in `js/main.js` and `/sendmail.php` files.
+1. Add your reCAPTCHA public and private keys in `js/main.js` and `/sendmail.php` files.
 2. Install sendmail: `sudo apt-get install sendmail`
 3. Configure the `/etc/php5/apache2/php.ini` file:
-
-* `SMTP = smtp.gmail.com`
-* `smtp_port = 465`
-* `sendmail_path = "sendmail -t -i"`
+    * `SMTP = smtp.gmail.com`
+    * `smtp_port = 465`
+    * `sendmail_path = "sendmail -t -i"`

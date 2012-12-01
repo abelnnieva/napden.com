@@ -79,7 +79,12 @@ $(document).on("ready", function() {
     };
 
     /**
+    * Clave pública del Recaptcha.
+    */
+    var publicKey = "6Lej1dkSAAAAABCC128YLqkTymayPdlPTKs4SS-I"; // Your reCAPTCHA public key
+
+    /**
     * Creación del Recaptcha.
     */
-    Recaptcha.create('6Lej1dkSAAAAABCC128YLqkTymayPdlPTKs4SS-I', 'recaptcha_image', RecaptchaOptions);
+    Recaptcha.create(publicKey, 'recaptcha_image', RecaptchaOptions);
 });

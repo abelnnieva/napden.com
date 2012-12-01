@@ -18,7 +18,7 @@ require_once('recaptchalib.php');
 function sendmail() {
     $status = array("status" => false);
 
-    $privatekey = ""; //Your private key
+    $privatekey = ""; // Your reCAPTCHA private key
 
     $reCaptcha = recaptcha_check_answer($privatekey, $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
 

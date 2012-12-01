@@ -81,5 +81,5 @@ $(document).on("ready", function() {
     /**
     * Creación del Recaptcha.
     */
-    Recaptcha.create('6LcHWdkSAAAAALxFwxZ68lvM6sanUIZeYFeybgnH', 'recaptcha_image', RecaptchaOptions);
+    Recaptcha.create('6Lej1dkSAAAAABCC128YLqkTymayPdlPTKs4SS-I', 'recaptcha_image', RecaptchaOptions);
 });

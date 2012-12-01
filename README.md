@@ -1,6 +1,6 @@
-# [Napden](http://napden.com)
+# [Napden](http://napden.com) source code
 
-Napden is a mobile and web development agency located in Tenerife, Spain.
+The Napden website is a simple static site built with Bootstrap.
 
 * Source: [https://github.com/napden/napden.com](https://github.com/napden/napden.com)
 * Homepage: [http://napden.com](http://napden.com)

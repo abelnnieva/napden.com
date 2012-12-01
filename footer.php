@@ -16,7 +16,7 @@
                     <!-- Copyright -->
                     <section class="span5 copyright">
                         <h1>Made by NAPDEN</h1>
-                        <p>Lovingly crafted by <a href="http://napden.com">NAPDEN</a>, a mobile and web development agency located in Tenerife, Spain.</p>
+                        <p>Made with love by <a href="http://napden.com">NAPDEN</a>, a mobile and web development agency located in Tenerife, Spain.</p>
                     </section>
 
                     <!-- social buttons -->
@@ -25,7 +25,7 @@
                         <ul class="nav nav-pills">
                             <li>
                                 <!-- the +1 button -->
-                                <div class="g-plusone" data-size="medium" data-href="http://esnab.co"></div>
+                                <div class="g-plusone" data-size="medium" data-href="http://napden.com"></div>
                             </li>
                             <li>
                                 <!-- the twitter button -->

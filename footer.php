@@ -20,7 +20,7 @@
                     </section>
 
                     <!-- social buttons -->
-                    <section class="span4 offset4 social-buttons ">
+                    <section class="span4 offset4 social-buttons">
                         <h1>Networks</h1>
                         <ul class="nav nav-pills">
                             <li>

@@ -60,7 +60,7 @@ $(document).on("ready", function() {
 
         $.ajax({
             type: 'POST',
-            url: '../napden.com/sendmail.php',
+            url: '../sendmail.php',
             dataType: 'json',
             data: post,
             success: function(data) {

@@ -33,7 +33,7 @@
                             </li>
                             <li>
                                 <!-- the facebook button -->
-                                <div class="fb-like" data-href="https://www.facebook.com/napden" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
+                                <div class="fb-like" data-href="http://www.facebook.com/pages/Napden/234193166711790" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div>
                             </li>
                         </ul>
                     </section>

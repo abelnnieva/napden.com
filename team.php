@@ -34,7 +34,7 @@
                         <article class="span5 offset1">
                             <!-- <img class="person" src="../img/coworker-steve.jpg"> -->
                             <header>
-                                <h1 class="name">ESTEBAN ELIAS NIEVA</h1>
+                                <h1 class="name">ESTEBAN NIEVA SAAVEDRA</h1>
                                 <h2 class="job-title">Founder & Developer</h2>
                             </header>
                             <p class="bio">Esteban is co-founder of Napden and is responsible for making all of your projects. Currently developing a simple tool for landlords.</p>

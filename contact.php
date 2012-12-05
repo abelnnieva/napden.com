@@ -4,7 +4,7 @@
 *
 * @package    napden.com
 * @license    https://github.com/napden/napden.com/blob/master/LICENSE.md
-* @author     Elias Esteban Nieva <stnieva@gmail.com>
+* @author     Esteban Nieva Saavedra <stnieva@gmail.com>
 */
 ?>
 

@@ -1,7 +1,7 @@
 /*!
  * main.js
  *
- * @author Abel Nieva Saavedra <abnieva@gmail.com> Elias Esteban Nieva <stnieva@gmail.com>
+ * @author Abel Nieva Saavedra <abnieva@gmail.com> Esteban Nieva Saavedra <stnieva@gmail.com>
  * @license https://github.com/napden/napden.com/blob/master/LICENSE.md
  */
 

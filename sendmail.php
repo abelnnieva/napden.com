@@ -4,7 +4,7 @@
 *
 * @package    napden
 * @license    https://github.com/napden/napden.com/blob/master/LICENSE.md
-* @author     Esteban Elias Nieva <stnieva@gmail.com>
+* @author     Esteban Nieva Saavedra <stnieva@gmail.com>
 */
 
 require_once('recaptchalib.php');

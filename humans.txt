@@ -4,7 +4,7 @@
 # TEAM
 
     Abel Nieva Saavedra -- Front-end web developer -- @abnieva
-    Esteban Elias Nieva -- Front-end web developer -- @stnieva
+    Esteban Nieva Saavedra -- Front-end web developer -- @stnieva
 
 # TECHNOLOGY COLOPHON
 

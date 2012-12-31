@@ -22,7 +22,7 @@ function sendmail() {
 
     $reCaptcha = recaptcha_check_answer($privatekey, $_SERVER["REMOTE_ADDR"], $_POST["recaptcha_challenge_field"], $_POST["recaptcha_response_field"]);
 
-    $email = "info@napden.com";
+    $email = "hello@napden.com";
 
     $asunto = "Napden.com — Formulario";
 

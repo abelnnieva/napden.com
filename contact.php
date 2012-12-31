@@ -22,7 +22,7 @@
                             <div class="span4">
                                 <p>If you have a project you want to discuss please get in touch, we will respond to your enquiry promptly.</p>
                                 <p>Call us on <a href="tel:+34667707341"><strong>+34 667 707341</strong></a>
-                                <p>Email us at <a href="mailto:info@napden.com"><strong>info@napden.com</strong></a></p>
+                                <p>Email us at <a href="mailto:hello@napden.com"><strong>hello@napden.com</strong></a></p>
                             </div>
 
                             <div class="span3">

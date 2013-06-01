@@ -4,4 +4,4 @@
 *.sublime-workspace
 
 # Folders to ignore
-sources
+node_modules
